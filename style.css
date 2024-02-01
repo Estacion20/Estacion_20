@@ -1,0 +1,149 @@
+header{
+    background: url(Banner/banner.png);
+}
+
+.caja{
+    width: 1300px;
+    position: relative;
+    margin: 0 auto;
+}
+
+nav{
+    position: absolute;
+    top: 60px;
+    right: 0;
+}
+
+nav li{
+    display: inline;
+    margin: 0 0 0 15px;
+    
+}
+
+nav a{
+    text-transform: uppercase;
+    color: #A2D2FF;
+    font-weight: bold;
+    font-size: 30px;
+    text-decoration: none;
+}
+
+nav a:hover{
+    color: #FF7477 ;
+    text-decoration: underline;
+}
+
+.productos{
+    width: 1000px;
+    margin: 0 -120px;
+    padding: 50px;
+    text-align: center;
+  
+    
+}
+
+.productos li{
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    margin: 0 1.5%;
+    padding: 80px 20px;
+    box-sizing: border-box;
+    border: 5px solid #cdb4db;
+    border-radius: 10px;
+    
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+main{
+    padding: 3em 0;
+    background: linear-gradient(pink,#cccccc, #cdb4db)
+    
+}
+
+.productos li:hover{
+    border-color: #ff74ff;
+    
+}
+
+.productos li:active{
+    border-color: #FF7477;
+}
+
+.productos h2{
+    font-size: 30px ;
+    font-weight: bold;
+}
+
+.productos li:hover h2{
+    font-size: 40px;
+}
+
+.producto-descripcion{
+    font-size: 18px ;
+}
+
+.producto-precio{
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+footer{
+    text-align: center;
+    background: url(Banner/banner.png);
+    padding: 40px;
+}
+
+.copyright{
+    color: black;
+    font-size: 20px;
+    margin: 20px;
+}
+
+
+
+form{
+    margin: 40px 0;
+}
+form label{
+    display: block;
+    font-size: 20px;
+    margin: 0 0 10px;
+}
+
+form input, form textarea{
+    display: block;
+    margin: 0 0 20px;
+    padding: 10px 25px;
+    width: 50%;
+}
+
+/*css para nuestra home*/
+
+.banner{
+    width: 100%;
+}
+
+.principal {
+    padding: 1em 0;
+ 
+    width: 850px;
+    margin: 0 auto;
+}
+
+.diferenciales
+
+.titulo-principal{
+    text-align: center;
+    font-size: 2em;
+    margin: o o 1em;
+}
+
+
+
